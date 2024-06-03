@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\BookProject.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\BookProject.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\BookProject.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\BookProject.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net8.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net8.0\BookProject.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="obj\BookProject.csproj.nuget.g.props" />
+    <None Include="obj\BookProject.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\BookProj.A9D919C4.Up2Date" />
+    <None Include="obj\Debug\net8.0\BookProject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\BookProject.assets.cache" />
+    <None Include="obj\Debug\net8.0\BookProject.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\BookProject.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\BookProject.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\BookProject.dll" />
+    <None Include="obj\Debug\net8.0\BookProject.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\BookProject.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\BookProject.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\BookProject.pdb" />
+    <None Include="obj\Debug\net8.0\refint\BookProject.dll" />
+    <None Include="obj\Debug\net8.0\ref\BookProject.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.build.BookProject.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookProject.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BookProject.props" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="8.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.6.2" />
+  </ItemGroup>
+
+</Project>
